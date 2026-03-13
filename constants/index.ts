@@ -312,7 +312,7 @@ export const FOOTER_DATA = [
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.com", 
       },
     ],
   },
