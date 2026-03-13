@@ -47,20 +47,21 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
-    |-- apple-icon.png
-    |-- favicon.ico
     |-- globals.css
-    |-- icon1.png
-    |-- icon2.png
     |-- layout.tsx
     |-- page.tsx
   |- components/
     |-- main/
     |-- sub/
+    |-- ui/
+    |-- grid-globe.tsx
   |- config/
     |-- index.ts
   |- constants/
+    |-- experience.ts
     |-- index.ts
+  |- data/
+    |-- globe.json
   |- lib/
     |-- motion.ts
     |-- utils.ts
@@ -137,6 +138,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.5.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [three](https://www.npmjs.com/package/three): ^0.183.2
+- [three-globe](https://www.npmjs.com/package/three-globe): ^2.45.0
 - [typescript](https://www.npmjs.com/package/typescript): ^5
 
 <!--- DEPENDENCIES_END --->
