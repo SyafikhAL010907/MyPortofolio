@@ -256,19 +256,19 @@ export const OTHER_SKILL = [
     height: 60,
   },
 ] as const;
- 
+
 export const PROJECTS = [
   {
     title: "Portal Mahasiswa PTIK 2025",
     description:
-     "A comprehensive and integrated digital hub for the PTIK 2025 cohort, featuring a centralized financial management system alongside streamlined academic resources and class schedules.",
+      "A comprehensive and integrated digital hub for the PTIK 2025 cohort, featuring a centralized financial management system alongside streamlined academic resources and class schedules.",
     image: "/projects/project-1.png",
     link: "https://portal-mahasiswa-ptikvercelapp.vercel.app/",
   },
   {
-  title: "Sistem Informasi Kuliah Tunggal",
+    title: "Sistem Informasi Kuliah Tunggal",
     description:
-     "A specialized management system for Universitas Negeri Jakarta's tuition fees (UKT), featuring secure administrative processing, real-time tracking, and a user-friendly dashboard for students.",
+      "A specialized management system for Universitas Negeri Jakarta's tuition fees (UKT), featuring secure administrative processing, real-time tracking, and a user-friendly dashboard for students.",
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
@@ -278,6 +278,20 @@ export const PROJECTS = [
       "A futuristic Web3 cryptocurrency exchange platform leveraging blockchain technology to provide secure, transparent, and real-time trading experiences with high-performance visualizations.",
     image: "/projects/project-3.png",
     link: "https://exchangeai.lovable.app/",
+  },
+  {
+    title: "Queue Admisi System",
+    description:
+      "An efficient and streamlined Admissions Queue Management System designed to optimize student registration workflows. Featuring real-time data synchronization, multi-counter administrative controls, and an interactive monitoring dashboard for a seamless user experience.",
+    image: "/projects/project-4.png",
+    link: "https://queue-admisi-system.vercel.app/display",
+  },
+   {
+    title: "Queue Admisi System",
+    description:
+      "An efficient and streamlined Admissions Queue Management System designed to optimize student registration workflows. Featuring real-time data synchronization, multi-counter administrative controls, and an interactive monitoring dashboard for a seamless user experience.",
+    image: "/projects/project-4.png",
+    link: "https://queue-admisi-system.vercel.app/display",
   },
 ] as const;
 
